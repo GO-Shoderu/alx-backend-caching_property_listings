@@ -15,9 +15,4 @@ def property_list(request):
         )
     )
 
-    return JsonResponse(
-        {
-            "data": properties
-        }
-    )
-
+    return JsonResponse({"data": properties})
